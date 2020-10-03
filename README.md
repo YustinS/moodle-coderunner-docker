@@ -1,6 +1,7 @@
 # CodeRunner Docker Environment
 
 **This repo uses the excellent Bitnami Docker images, which come with many different configuration options**
+
 **Please refer https://github.com/bitnami/bitnami-docker-moodle for configuration parameters**
 
 The content of this repo will allow a quick and dirty environment to be stoodup to test out CodeRunner inside of Docker.
