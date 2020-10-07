@@ -9,7 +9,7 @@ The content of this repo will allow a quick and dirty environment to be stoodup 
 **USAGE**
 
 This environment assumes a good fundamental knowledge of Terraform to use.
-In general though, simply fill out the details in the terraform.tfstate file with the needed values, and let it rip.
+In general though, simply fill out the details in the terraform.tfvars file with the needed values, and let it rip.
 The initial boot will take some time, as it will generate all the required Moodle content to run successfully.
 After this is done feel free to tune the health checks timeouts to have a more readily available environment.
 
