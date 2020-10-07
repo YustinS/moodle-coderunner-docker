@@ -1,0 +1,27 @@
+acm_domain = "poc.amazon.com"
+acm_domain_jobe = "poc.amazon.com"
+profile = "poc-account"
+region = "ap-southeast-2"
+########################### Network Config ################################
+# This are old length identifiers
+vpc_id = "vpc-10101010"
+private_subnets = [
+  "subnet-00000000",
+  "subnet-00000001",
+  "subnet-00000002"
+]
+public_subnets = [
+  "subnet-00000003",
+  "subnet-00000004",
+  "subnet-00000005"
+]
+hosted_zone            = "poc.amazon.com"
+dns_name               = "coderunner.poc.amazon.com"
+jobe_hosted_zone       = "poc.amazon.com"
+jobe_host_zone_private = false
+jobe_dns_name          = "jobe-internal.poc.amazon.com"
+########################### Containers ################################
+moodle_image          = "docker.io/bitnami/moodle:3"
+moodle_skip_bootstrap = "yes"
+moodle_sitename       = "CodeRunner"
+# jobe_image            = "" Leave to default for testing
