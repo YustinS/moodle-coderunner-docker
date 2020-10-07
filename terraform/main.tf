@@ -17,8 +17,8 @@ terraform {
 }
 
 provider "aws" {
-  profile = "uoa-sandbox"
-  region  = "ap-southeast-2"
+  profile = var.profile
+  region  = var.region
   ignore_tags {
     key_prefixes = ["Auto"]
   }
